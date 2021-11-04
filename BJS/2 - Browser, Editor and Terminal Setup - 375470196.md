@@ -1,0 +1,1 @@
+# Browser, Editor and Terminal Setup

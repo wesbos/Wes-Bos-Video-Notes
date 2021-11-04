@@ -1,0 +1,1 @@
+# Gatsby SEO and Head Tags

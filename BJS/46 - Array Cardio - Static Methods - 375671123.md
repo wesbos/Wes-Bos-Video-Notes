@@ -1,0 +1,1 @@
+# Array Cardio - Static Methods

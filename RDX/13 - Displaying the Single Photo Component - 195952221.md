@@ -1,0 +1,1 @@
+# Displaying the Single Photo Component

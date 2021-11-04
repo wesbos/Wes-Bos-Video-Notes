@@ -1,0 +1,1 @@
+# Product Image Permissions

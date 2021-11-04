@@ -1,0 +1,1 @@
+# An intro to gatsby-config and sourcing data

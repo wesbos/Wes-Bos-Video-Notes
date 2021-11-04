@@ -1,0 +1,1 @@
+# Different Ways to Declare Functions

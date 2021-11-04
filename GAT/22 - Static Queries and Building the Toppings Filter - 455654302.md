@@ -1,0 +1,1 @@
+# Static Queries and Building the Toppings Filter

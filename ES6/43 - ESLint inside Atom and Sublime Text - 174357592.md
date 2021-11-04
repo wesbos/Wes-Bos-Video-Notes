@@ -1,0 +1,1 @@
+# ESLint inside Atom and Sublime Text

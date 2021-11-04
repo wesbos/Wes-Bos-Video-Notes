@@ -1,0 +1,1 @@
+# Better deletion of files & folders with  trash

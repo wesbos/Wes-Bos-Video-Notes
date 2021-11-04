@@ -1,0 +1,1 @@
+# Array .some() and .every()

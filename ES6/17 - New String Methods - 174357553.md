@@ -1,0 +1,1 @@
+# New String Methods

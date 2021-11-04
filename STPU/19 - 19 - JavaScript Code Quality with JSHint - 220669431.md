@@ -1,0 +1,1 @@
+# 19 - JavaScript Code Quality with JSHint

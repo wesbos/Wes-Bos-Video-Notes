@@ -1,0 +1,1 @@
+# Prototype Refactor of the Slider Exercise

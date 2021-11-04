@@ -1,0 +1,1 @@
+# Only Allow ESLint Passing Code into your git repos
