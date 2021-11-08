@@ -2,9 +2,9 @@
 
 If your *Currency Strings* aren't matching in Jest when you test the `formatMoney` util function and the currency has spaces in it then it won't match, the reason is because the `Intl.NumberFormat` method uses non-breaking spaces. The `Intl.NumberFormat` method does this because you wouldn't want a currency to wrap onto multiple lines, but this causes the test to break because we use normal spaces in the strings that we type in our code.
 
-If the currency you are testing contains spaces then you'll need to use this solution. Every space in the Currency String has to be replaced by `\xa0` for the test to pass.
+If the currency you are testing contains spaces then you'll need to use this solution. Every space in the Currency String has to be replaced by `\xa0` for the test to pass. `\xa0` is the non-breaking space character.
 
-```js:title=__tests__/utils/formatMoney.test.ts {5,6}
+```js:title=__tests__/utils/formatMoney.test.ts {5,6,7,8,12,13,14,15}
 import formatMoney from "../../utils/formatMoney";
 
 describe("formatMoney function", () => {
