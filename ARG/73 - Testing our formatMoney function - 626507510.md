@@ -4,7 +4,7 @@ If your *Currency Strings* aren't matching in Jest when you test the `formatMone
 
 If the currency you are testing contains spaces then you'll need to use this solution. Every space in the Currency String has to be replaced by `\xa0` for the test to pass. `\xa0` is the non-breaking space character.
 
-```js:title=__tests__/utils/formatMoney.test.ts {5,6,7,8,12,13,14,15}
+```js:title=__tests__/utils/formatMoney.test.js {5,6,7,8,12,13,14,15}
 import formatMoney from "../../utils/formatMoney";
 
 describe("formatMoney function", () => {
