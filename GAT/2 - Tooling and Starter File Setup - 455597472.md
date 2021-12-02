@@ -6,6 +6,8 @@ This is a test and should be deleted before we go live.
 const age = 100;
 ```
 
+We are going to learn a ton about `js•Array.prototype.map()`.
+
 Then with the css:
 
 ```css
