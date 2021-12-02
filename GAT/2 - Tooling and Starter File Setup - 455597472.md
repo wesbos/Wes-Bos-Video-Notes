@@ -2,6 +2,26 @@
 
 This is a test and should be deleted before we go live.
 
+```js
+const age = 100;
+```
+
+Then with the css:
+
+```css
+.thing {
+  color: black;
+  text-transform: underline;
+  background: var(--bg);
+}
+```
+
+If you need to install it again:
+
+```bash
+npm i react react-dom
+```
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. **Quaerat** aperiam necessitatibus sequi architecto? Cum, qui suscipit. Perspiciatis, vel omnis dicta ipsum officiis voluptates unde velit at accusantium tempora adipisci ullam incidunt ipsam! Nam quidem possimus quisquam incidunt doloribus neque totam temporibus rerum error, perferendis blanditiis sequi nostrum quae illo quo?
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam necessitatibus sequi architecto? Cum, qui suscipit. Perspiciatis, vel omnis dicta ipsum officiis voluptates unde velit at accusantium tempora adipisci ullam incidunt ipsam! Nam quidem possimus quisquam incidunt doloribus neque totam temporibus rerum error, perferendis blanditiis sequi nostrum quae illo quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam necessitatibus sequi architecto? Cum, qui suscipit. Perspiciatis, vel omnis dicta ipsum officiis voluptates unde velit at accusantium tempora adipisci ullam incidunt ipsam! Nam quidem possimus quisquam incidunt doloribus neque totam temporibus rerum error, perferendis blanditiis sequi nostrum quae illo quo?
