@@ -24,6 +24,30 @@ If you need to install it again:
 npm i react react-dom
 ```
 
+Notice how we can highlight lines?
+
+```json
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.2",
+    // highlight-start
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-wesbos": "^2.1.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.3",
+    // highlight-end
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "parcel": "^2.0.1",
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
+  },
+  ```
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. **Quaerat** aperiam necessitatibus sequi architecto? Cum, qui suscipit. Perspiciatis, vel omnis dicta ipsum officiis voluptates unde velit at accusantium tempora adipisci ullam incidunt ipsam! Nam quidem possimus quisquam incidunt doloribus neque totam temporibus rerum error, perferendis blanditiis sequi nostrum quae illo quo?
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam necessitatibus sequi architecto? Cum, qui suscipit. Perspiciatis, vel omnis dicta ipsum officiis voluptates unde velit at accusantium tempora adipisci ullam incidunt ipsam! Nam quidem possimus quisquam incidunt doloribus neque totam temporibus rerum error, perferendis blanditiis sequi nostrum quae illo quo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam necessitatibus sequi architecto? Cum, qui suscipit. Perspiciatis, vel omnis dicta ipsum officiis voluptates unde velit at accusantium tempora adipisci ullam incidunt ipsam! Nam quidem possimus quisquam incidunt doloribus neque totam temporibus rerum error, perferendis blanditiis sequi nostrum quae illo quo?
