@@ -55,7 +55,7 @@ extendGraphqlSchema: (schema) => addCompatibilityForQueries(extendGraphqlSchema(
 
 1. the `onConnect` method for seeding data, replaced `keystone` param with `context` and passes `context.prisma`
 
-```js {diff}
+```diff
 - async onConnect(context) {
 + async onConnect(context) {
   console.log('Connected to the database!');
@@ -231,7 +231,7 @@ Most of the frontend is unaffected. Just a few minor updates.
 
 ### Search.js:
 
-```js {diff}
+```diff
 - { name_contains_i: $searchTerm }
 - { description_contains_i: $searchTerm }
 + { name: { contains: $searchTerm } }
@@ -260,7 +260,7 @@ function ClientOnly({ children, ...delegated }) {
 
 `UserAuthenticationWithPasswordFailure`  no longer returns a `code`, remove it.
 
-```graphql {diff}
+```diff
 ... on UserAuthenticationWithPasswordFailure {
 -  code
   message
