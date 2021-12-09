@@ -15,7 +15,6 @@ import fs from 'fs';
 
 const courses = { ARG, BJS, CLPU, ES6, GAT, GRID, JS3, MMD, NODE, RDX, RFB, RFB, STPU, WTF };
 
-
 for(const [course, { videos }] of Object.entries(courses)) {
   console.log(course)
   // loop over each video and create a folder and file for i
