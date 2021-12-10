@@ -32,7 +32,9 @@ Find and Replace globally in your project
 * `import { KeystoneContext, SessionStore } from '@keystone-next/types';` → `import { KeystoneContext} from '@keystone-6/core/types';`
 * `id: session.itemId` →  `id: { equals: session!.itemId }`
 * `read: ` → `query: ` (keep the spaces in this one!)
-* `text({ isRequired: true })` >> `text({ validation: { isRequired: true } })`
+* `read: ` → `query: ` (keep the spaces in this one!)
+* `text({ isRequired: true })` → `text({ validation: { isRequired: true } })`
+* `status: 'AVAILABLE'` → `status: { equals: 'AVAILABLE' }`
 
 ## `keystone.ts` Setup File:
 The setup of this file has been re-recorded, but here are the steps to update your existing keystone:
@@ -229,6 +231,8 @@ A great app for visualizing your data is Table Plus.
 
 Most of the frontend is unaffected. Just a few minor updates.
 
+
+
 ### Search.js:
 
 ```diff
@@ -288,4 +292,10 @@ module.exports = {
 2. Record a single update video
 3. Update each video
 4. Update each stepped solution
+
+The keystone setup video needs to have extendGraphQLSchema added.
+
  -->
+
+
+
