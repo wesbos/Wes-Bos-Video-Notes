@@ -4,7 +4,7 @@ To fix the issue where no *beer ratings* are being generated, please add `if (!b
 
 The reason it is failing is because the last "beers" items in the API response are returning invalid strings instead of an object for the ratings. You need to add an `if statement` to your code to skip the beers with the incorrect data until they fix the API.
 
-```js:title=gatsby/gatsby-node.js {10}
+```js:gatsby/gatsby-node.js {10}
 async function fetchBeersAndTurnIntoNodes({
   actions,
   createNodeId,
