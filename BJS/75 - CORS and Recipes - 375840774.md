@@ -1,1 +1,7 @@
 # CORS and Recipes
+
+The Recipe Puppy API is offline and un-usable at the moment.
+
+There is a replacement that you can use and it works exactly the same way. The URL is https://recipes.beginnerjavascript.com/api.
+
+You can refer to the [lesson finished file on GitHub](https://github.com/wesbos/beginner-javascript/blob/master/exercises/75%20-%20CORS%20and%20Recipes/scripts-FINISHED.js#L1) to see the updated code that you can use.
