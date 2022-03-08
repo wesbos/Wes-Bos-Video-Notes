@@ -1,1 +1,1 @@
-# Cart - Using Recat Context for our Cart State
+# Cart - Using React Context for our Cart State
