@@ -1,1 +1,1 @@
-# Using z to jump to frecent folders
+# Using z to jump to recent folders
