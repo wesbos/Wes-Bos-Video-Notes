@@ -8,7 +8,7 @@ Also note, the Firebase imports have been updated since the recording of the cou
 
 You can use these imports in the `base.js` file.
 
-```js {1,5}
+```js {3,4,5}
 import Rebase from 're-base';
 import firebase from 'firebase/app';
 import 'firebase/auth';
