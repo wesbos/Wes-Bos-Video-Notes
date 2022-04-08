@@ -1,1 +1,0 @@
-# Using useEffect to deal with a tricking loading state issue
