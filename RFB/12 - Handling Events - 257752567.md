@@ -6,7 +6,7 @@ On each occurance where a React Ref is used as `value.value` in the course you n
 
 [GitHub Stepped Solutions](https://github.com/wesbos/React-For-Beginners-Starter-Files/blob/master/stepped-solutions/13/components/StorePicker.js#L11)
 
-```jsx:title=src/components/StorePicker.js {5}
+```jsx:title=src/components/StorePicker.js {4}
 goToStore = event => {
   // 1. Stop the form from submitting
   event.preventDefault();
