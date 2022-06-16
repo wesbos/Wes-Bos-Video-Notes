@@ -24,7 +24,7 @@ If you already have the files on your computer, go ahead and switch these out:
 ## Sitewide Imports
 Find and Replace globally in your project
 
-* `@keystone-next/fields` → `@keystone-6/core/fields`
+* `@keystone-next/fields` → `@keystone-6/core`
 * `from '@keystone-next/keystone/schema'` → `from '@keystone-6/core'`
 * `@keystone-next/cloudinary` → `@keystone-6/cloudinary`
 * `@keystone-next/auth` → `@keystone-6/auth`
