@@ -68,7 +68,7 @@ extendGraphqlSchema: (schema) => addCompatibilityForQueries(extendGraphqlSchema(
 },
 ```
 
-3. Delete `withItemData` import and delete where it wrapped wrapped statelessSessions. Delete the second argument and move that to createAuth:
+3. Delete `withItemData` import and delete where it wrapped statelessSessions. Delete the second argument and move that to createAuth:
 
 ```js
 // ...
