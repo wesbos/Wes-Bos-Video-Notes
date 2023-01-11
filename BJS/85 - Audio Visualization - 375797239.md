@@ -1,5 +1,5 @@
 # Audio Visualization
 
-## Video Correction
+## An Update on Using HSL
 
-You can use HSL on canvas HTML elements. The canvas context can accept any CSS color value. You can read more about this here https://www.w3.org/TR/2dcontext/#fill-and-stroke-styles
+You can now use HSL on canvas HTML elements! So you can use ````ctx.fillStyle = `hsl(${h},${s},${l})`;```` directly without needing the conversion function.
