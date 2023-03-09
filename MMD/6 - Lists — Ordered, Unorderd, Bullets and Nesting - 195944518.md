@@ -1,1 +1,1 @@
-# Lists — Ordered, Unorderd, Bullets and Nesting
+# Lists — Ordered, Unordered, Bullets and Nesting
