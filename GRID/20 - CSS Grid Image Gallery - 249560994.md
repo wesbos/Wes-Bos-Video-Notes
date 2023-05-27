@@ -1,1 +1,0 @@
-# CSS Grid Image Gallery
